@@ -1,0 +1,20 @@
+{
+  "name": "trabajo_hoy",
+  "version": "1.0.0",
+  "description": "trabajo realizado por grupos de atres personas del dia de hoy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }, 
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
