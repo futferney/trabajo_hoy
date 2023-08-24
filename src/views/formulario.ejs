@@ -10,17 +10,56 @@
 <body>
     <%- include('partials/navigation') %>
     <main class="container vh-100 pt-2 text-center d-flex justify-content-center align-items-center">
-        <section>
-            <h1 class="display-1 d-flex justify-content-center">Quienes Somos</h1>
-            <p class="d-flex justify-content-center">
-                Somos una destacada empresa especializada en la venta de una amplia gama de artículos deportivos, diseñada para brindarte soluciones integrales
-                que potenciarán tu experiencia en el mundo del deporte. Nuestra misión es proporcionarte todo lo necesario para que disfrutes al máximo mientras
-                te mantienes activo y protegidoen tu entorno de movimiento sin restricciones. Contamos con una selección cuidadosamente curada de productos que
-                abarcan desde equipos de alta calidad hasta accesorios esenciales, todos destinados a hacer que cada momento en tu jornada deportiva sea memorable
-                y seguro. Tu pasión y bienestar son nuestra prioridad, y estamos comprometidos en ofrecerte productos que reflejen nuestra dedicación a la excelencia
-                y al disfrute del deporte.</p>
-            <img src="/img/quienes.jpg" alt="w-100">
-        </section>
+        <div class="container">
+            <div class="">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+            </div>
+    
+        </div>
+    
     </main>
     <%- include('partials/footer') %>
 </body>
